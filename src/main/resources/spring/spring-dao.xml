@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--mybatis整合过程-->
+
+    <!--1、配置jdbc相关属性-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--2、配置数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--配置相关参数-->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+
+        <!--配置c3p0连接池-->
+        <property name="maxPoolSize" value="30"/>
+        <property name="minPoolSize" value="10"/>
+        <!--配置连接关闭后不自动commit-->
+        <property name="autoCommitOnClose" value="false"/>
+        <!--重新连接时间-->
+        <property name="checkoutTimeout" value="1000"/>
+        <!--重试次数-->
+        <property name="acquireRetryAttempts" value="3"/>
+    </bean>
+
+    <!--3、配置sqlSessionFactory-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--注入数据库连接池-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--配置mybatis-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <!--使用别名-->
+        <property name="typeAliasesPackage" value="scu.zhc.entity"/>
+    </bean>
+
+    <!--注入spring-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--注入sqlSessionFactory-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--扫描dao-->
+        <property name="basePackage" value="scu.zhc.dao"/>
+    </bean>
+    
+</beans>
