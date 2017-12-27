@@ -28,7 +28,7 @@ public interface AboutService {
      * @param about
      * @return
      */
-    List<About> selectAboutWiathParams(About about);
+    List<About> selectAboutWithParams(About about);
 
     /**
      * 修改介绍信息

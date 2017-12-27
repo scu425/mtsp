@@ -25,7 +25,7 @@ public interface UserDAO {
      * @return
      */
     @Select("select * from " + USER + " where (loginname = #{loginname} or email = #{email}) " +
-            " and password = {password} ")
+            " and password = #{password} ")
     User login(@Param("loginname") String loginname, @Param("email") String email,
                @Param("password") String password);
 

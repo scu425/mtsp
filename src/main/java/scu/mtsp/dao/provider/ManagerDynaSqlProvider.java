@@ -15,18 +15,18 @@ public class ManagerDynaSqlProvider {
      * @param manager
      * @return
      */
-    public String isnertManager(Manager manager) {
+    public String insertManager(Manager manager) {
         return new SQL() {
             {
                 INSERT_INTO(MANAGER);
                 if (manager.getLoginname() != null && !manager.getLoginname().equals("")) {
-                    VALUES("loginname", "#{manager.loginname}");
+                    VALUES("loginname", "#{loginname}");
                 }
                 if (manager.getUsername() != null && !manager.getUsername().equals("")) {
-                    VALUES("username", "#{manager.username}");
+                    VALUES("username", "#{username}");
                 }
                 if (manager.getPassword() != null && !manager.getPassword().equals("")) {
-                    VALUES("password", "#{manager.password}");
+                    VALUES("password", "#{password}");
                 }
             }
         }.toString();
@@ -42,15 +42,15 @@ public class ManagerDynaSqlProvider {
         return new SQL() {
             {
                 UPDATE(MANAGER);
-                WHERE("manager_id = #{manager.managerId}");
+                WHERE("manager_id = #{managerId}");
                 if (manager.getLoginname() != null && !manager.getLoginname().equals("")) {
-                    SET("loginname = #{manager.loginname}");
+                    SET("loginname = #{loginname}");
                 }
                 if (manager.getUsername() != null && !manager.getUsername().equals("")) {
-                    SET("username = #{manager.username}");
+                    SET("username = #{username}");
                 }
                 if (manager.getPassword() != null && !manager.getPassword().equals("")) {
-                    VALUES("password", "#{manager.password}");
+                    VALUES("password", "#{password}");
                 }
             }
         }.toString();
@@ -68,13 +68,13 @@ public class ManagerDynaSqlProvider {
                 SELECT("*");
                 FROM(MANAGER);
                 if (manager.getManagerId() != null && !manager.getManagerId().equals("")) {
-                    WHERE("manager_id = #{manager.managerId}");
+                    WHERE("manager_id = #{managerId}");
                 }
                 if (manager.getLoginname() != null && !manager.getLoginname().equals("")) {
-                    WHERE("loginname = #{manager.loginname}");
+                    WHERE("loginname = #{loginname}");
                 }
                 if (manager.getUsername() != null && !manager.getUsername().equals("")) {
-                    WHERE("username like concat ('%',#{manager.username},'%' )");
+                    WHERE("username like concat ('%',#{username},'%' )");
                 }
             }
         }.toString();

@@ -13,7 +13,7 @@ import static scu.mtsp.constant.MTSPConstant.USER_SESSION;
  * Created by zhc on 2017/12/26
  */
 public class AuthorizedInterceptor implements HandlerInterceptor{
-    private static final String[] IGNORE_URI = {"/login","/loginForm"};
+    private static final String[] IGNORE_URI = {"/login","/register"};
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         boolean flag = false;

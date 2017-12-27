@@ -19,12 +19,12 @@ public class AboutDynaSqlProvider {
         return new SQL() {
             {
                 INSERT_INTO(ABOUT);
-                WHERE("about_id = #{about.aboutId}");
+                WHERE("about_id = #{aboutId}");
                 if (about.getAboutCN() != null && !about.getAboutCN().equals("")) {
-                    VALUES("aboutCN", "#{about.aboutCN}");
+                    VALUES("aboutCN", "#{aboutCN}");
                 }
                 if (about.getAboutEN() != null && !about.getAboutEN().equals("")) {
-                    VALUES("aboutEN", "#{about.aboutEN}");
+                    VALUES("aboutEN", "#{aboutEN}");
                 }
             }
         }.toString();
@@ -42,13 +42,13 @@ public class AboutDynaSqlProvider {
                 SELECT("*");
                 FROM(ABOUT);
                 if (about.getAboutId() != null && !about.getAboutId().equals("")) {
-                    WHERE("about_id = #{about.aboutId}");
+                    WHERE("about_id = #{aboutId}");
                 }
                 if (about.getAboutCN() != null && !about.getAboutCN().equals("")) {
-                    WHERE("aboutCN like concat ('%',#{about.aboutCN},'%')}");
+                    WHERE("aboutCN like concat ('%',#{aboutCN},'%')}");
                 }
                 if (about.getAboutEN() != null && !about.getAboutEN().equals("")) {
-                    WHERE("aboutEN like concat ('%',#{about.aboutEN},'%')");
+                    WHERE("aboutEN like concat ('%',#{aboutEN},'%')");
                 }
             }
         }.toString();
@@ -64,12 +64,12 @@ public class AboutDynaSqlProvider {
         return new SQL() {
             {
                 UPDATE(ABOUT);
-                WHERE("about_id = #{about.aboutId}");
+                WHERE("about_id = #{aboutId}");
                 if (about.getAboutCN() != null && !about.getAboutCN().equals("")) {
-                    SET("aboutCN = #{about.aboutCN}");
+                    SET("aboutCN = #{aboutCN}");
                 }
                 if (about.getAboutEN() != null && !about.getAboutEN().equals("")) {
-                    SET("aboutEN = #{about.aboutCN}");
+                    SET("aboutEN = #{aboutCN}");
                 }
             }
         }.toString();

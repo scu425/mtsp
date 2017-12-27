@@ -19,7 +19,7 @@ public interface DonateDAO {
      *
      * @param donate
      */
-    @SelectProvider(type = DonateDynaSqlProvider.class, method = "isnertDonate")
+    @SelectProvider(type = DonateDynaSqlProvider.class, method = "insertDonate")
     void insertDonate(Donate donate);
 
     /**

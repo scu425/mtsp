@@ -20,19 +20,19 @@ public class PeopleDynaSqlProvider {
             {
                 INSERT_INTO(PEOPLE);
                 if (people.getNameCN() != null && !people.getNameCN().equals("")) {
-                    VALUES("nameCN", "#{people.nameCN}");
+                    VALUES("nameCN", "#{nameCN}");
                 }
                 if (people.getNameEN() != null && !people.getNameEN().equals("")) {
-                    VALUES("nameEn", "#{peopel.nameEN}");
+                    VALUES("nameEn", "#{nameEN}");
                 }
                 if (people.getIntroductionCN() != null && !people.getIntroductionCN().equals("")) {
-                    VALUES("introductionCN", "#{people.introductionCN}");
+                    VALUES("introductionCN", "#{introductionCN}");
                 }
                 if (people.getIntroductionEN() != null && !people.getIntroductionEN().equals("")) {
                     VALUES("introductionEN", "introductionEN");
                 }
                 if (people.getPhoto() != null && !people.getPhoto().equals("")) {
-                    VALUES("photo", "#{people.photo}");
+                    VALUES("photo", "#{photo}");
                 }
             }
         }.toString();
@@ -48,21 +48,21 @@ public class PeopleDynaSqlProvider {
         return new SQL() {
             {
                 UPDATE(PEOPLE);
-                WHERE("people_id = #{people.peopleId}");
+                WHERE("people_id = #{peopleId}");
                 if (people.getNameCN() != null && !people.getNameCN().equals("")) {
-                    SET("nameCN = #{people.nameCN}");
+                    SET("nameCN = #{nameCN}");
                 }
                 if (people.getNameEN() != null && !people.getNameEN().equals("")) {
-                    SET("nameEN = #{people.nameEN}");
+                    SET("nameEN = #{nameEN}");
                 }
                 if (people.getIntroductionCN() != null && !people.getIntroductionCN().equals("")) {
-                    SET("introductionCN = #{people.introductionEN}");
+                    SET("introductionCN = #{introductionEN}");
                 }
                 if (people.getIntroductionEN() != null && !people.getIntroductionEN().equals("")) {
-                    SET("introductionEN = #{people.introductionEN}");
+                    SET("introductionEN = #{introductionEN}");
                 }
                 if (people.getPhoto() != null && !people.getPhoto().equals("")) {
-                    SET("photo = #{people.photo}");
+                    SET("photo = #{photo}");
                 }
             }
         }.toString();
@@ -80,13 +80,13 @@ public class PeopleDynaSqlProvider {
                 SELECT("*");
                 FROM(PEOPLE);
                 if (people.getPeopleId() != null && !people.getPeopleId().equals("")) {
-                    WHERE("people_id = #{people.peopleId}");
+                    WHERE("people_id = #{peopleId}");
                 }
                 if (people.getNameCN() != null && !people.getNameCN().equals("")) {
-                    WHERE("nameCN like concat ('%',#{people.nameCN},'%')");
+                    WHERE("nameCN like concat ('%',#{nameCN},'%')");
                 }
                 if (people.getNameEN() != null && !people.getNameEN().equals("")) {
-                    WHERE("nameEN like concat ('%',#{people.nameEN},'%')");
+                    WHERE("nameEN like concat ('%',#{nameEN},'%')");
                 }
                 /*if (people.getIntroductionCN() != null && !people.getIntroductionCN().equals("")){
                     SET("introductionCN = #{people.introductionEN}");

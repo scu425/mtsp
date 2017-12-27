@@ -7,8 +7,10 @@ import java.io.Serializable;
  */
 public class Donate implements Serializable {
     private Integer donateId;
-    private String title;
-    private String content;
+    private String titleEN;
+    private String contentEN;
+    private String titleCN;
+    private String contentCN;
 
     public Integer getDonateId() {
         return donateId;
@@ -18,20 +20,47 @@ public class Donate implements Serializable {
         this.donateId = donateId;
     }
 
-    public String getTitle() {
-        return title;
+    public String getTitleEN() {
+        return titleEN;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setTitleEN(String titleEN) {
+        this.titleEN = titleEN;
     }
 
-    public String getContent() {
-        return content;
+    public String getContentEN() {
+        return contentEN;
     }
 
-    public void setContent(String content) {
-        this.content = content;
+    public void setContentEN(String contentEN) {
+        this.contentEN = contentEN;
+    }
+
+    public String getTitleCN() {
+        return titleCN;
+    }
+
+    public void setTitleCN(String titleCN) {
+        this.titleCN = titleCN;
+    }
+
+    public String getContentCN() {
+        return contentCN;
+    }
+
+    public void setContentCN(String contentCN) {
+        this.contentCN = contentCN;
+    }
+
+    @Override
+    public String toString() {
+        return "Donate{" +
+                "donateId=" + donateId +
+                ", titleEN='" + titleEN + '\'' +
+                ", contentEN='" + contentEN + '\'' +
+                ", titleCN='" + titleCN + '\'' +
+                ", contentCN='" + contentCN + '\'' +
+                '}';
     }
 }
 

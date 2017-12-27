@@ -19,11 +19,17 @@ public class DonateDynaSqlProvider {
         return new SQL() {
             {
                 INSERT_INTO(DONATE);
-                if (donate.getTitle() != null && !donate.getTitle().equals("")) {
-                    VALUES("title", "#{donate.title}");
+                if (donate.getTitleCN() != null && !donate.getTitleCN().equals("")) {
+                    VALUES("titleCN", "#{titleCN}");
                 }
-                if (donate.getContent() != null && !donate.getContent().equals("")) {
-                    VALUES("content", "#{donate.content}");
+                if (donate.getTitleEN() != null && !donate.getTitleEN().equals("")) {
+                    VALUES("titleEN", "#{titleEN}");
+                }
+                if (donate.getContentCN() != null && !donate.getTitleCN().equals("")){
+                    VALUES("contentCN", "#{contentCN}");
+                }
+                if (donate.getContentEN() != null && !donate.getContentEN().equals("")){
+                    VALUES("contentEN", "#{contentEN}");
                 }
             }
         }.toString();
@@ -41,13 +47,19 @@ public class DonateDynaSqlProvider {
                 SELECT("*");
                 FROM(DONATE);
                 if (donate.getDonateId() != null && !donate.getDonateId().equals("")) {
-                    WHERE("donate_id = #{donate.donateId}");
+                    WHERE("donate_id = #{donateId}");
                 }
-                if (donate.getTitle() != null && !donate.getTitle().equals("")) {
-                    WHERE("title = #{donate.title}");
+                if (donate.getTitleCN() != null && !donate.getTitleCN().equals("")) {
+                    WHERE("titleCN = #{titleCN}");
                 }
-                if (donate.getContent() != null && !donate.getContent().equals("")) {
-                    WHERE("content = #{donate.content}");
+                if (donate.getTitleEN() != null && !donate.getTitleEN().equals("")) {
+                    WHERE("titleEN = #{titleEN}");
+                }
+                if (donate.getContentCN() != null && !donate.getTitleCN().equals("")){
+                    WHERE("contentCN = #{contentCN}");
+                }
+                if (donate.getContentEN() != null && !donate.getContentEN().equals("")){
+                    WHERE("contentEN = #{contentEN}");
                 }
             }
         }.toString();
@@ -63,12 +75,18 @@ public class DonateDynaSqlProvider {
         return new SQL() {
             {
                 UPDATE(DONATE);
-                WHERE("donate_id = #{donate.donateId}");
-                if (donate.getTitle() != null && !donate.getTitle().equals("")) {
-                    SET("title = #{donate.title}");
+                WHERE("donate_id = #{donateId}");
+                if (donate.getTitleCN() != null && !donate.getTitleCN().equals("")) {
+                    SET("titleCN like concat ('%',#{titleCN},'%')");
                 }
-                if (donate.getContent() != null && !donate.getContent().equals("")) {
-                    SET("content = #{donate.content}");
+                if (donate.getTitleEN() != null && !donate.getTitleEN().equals("")) {
+                    SET("titleEN like concat ('%',#{titleEN},'%')");
+                }
+                if (donate.getContentCN() != null && !donate.getTitleCN().equals("")){
+                    SET("contentCN like concat ('%',#{contentCN},'%')");
+                }
+                if (donate.getContentEN() != null && !donate.getContentEN().equals("")){
+                    SET("contentEN like concat ('%',#{contentEN},'%')");
                 }
             }
         }.toString();

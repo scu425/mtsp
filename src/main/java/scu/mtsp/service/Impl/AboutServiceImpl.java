@@ -32,7 +32,7 @@ public class AboutServiceImpl implements AboutService{
     }
 
     @Override
-    public List<About> selectAboutWiathParams(About about) {
+    public List<About> selectAboutWithParams(About about) {
         return aboutDAO.selectAboutWithParams(about);
     }
 

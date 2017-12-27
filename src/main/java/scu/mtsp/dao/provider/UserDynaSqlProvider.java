@@ -20,25 +20,25 @@ public class UserDynaSqlProvider {
             {
                 INSERT_INTO(USER);
                 if (user.getLoginname() != null && !user.getLoginname().equals("")) {
-                    VALUES("loginname", "#{user.loginname}");
+                    VALUES("loginname", "#{loginname}");
                 }
                 if (user.getUsername() != null && !user.getUsername().equals("")) {
-                    VALUES("username", "#{user.username}");
+                    VALUES("username", "#{username}");
                 }
                 if (user.getPassword() != null && !user.getPassword().equals("")) {
-                    VALUES("password", "#{user.password}");
+                    VALUES("password", "#{password}");
                 }
                 if (user.getAge() != null && !user.getAge().equals("")) {
-                    VALUES("age", "#{user.age}");
+                    VALUES("age", "#{age}");
                 }
                 if (user.getGender() != null && !user.getGender().equals("")) {
-                    VALUES("gender", "#{user.gender}");
+                    VALUES("gender", "#{gender}");
                 }
                 if (user.getGrade() != null && !user.getGrade().equals("")) {
-                    VALUES("grade", "#{user.grade}");
+                    VALUES("grade", "#{grade}");
                 }
                 if (user.getSchool() != null && !user.getSchool().equals("")) {
-                    VALUES("school", "#{user.school}");
+                    VALUES("school", "#{school}");
                 }
                 if (user.getEmail() != null && !user.getEmail().equals("")) {
                     VALUES("email", "#{email}");
@@ -57,30 +57,30 @@ public class UserDynaSqlProvider {
         return new SQL() {
             {
                 UPDATE(USER);
-                WHERE("user_id = #{user.userId}");
+                WHERE("user_id = #{userId}");
                 if (user.getLoginname() != null && !user.getLoginname().equals("")) {
-                    SET("loginname  = #{user.loginname}");
+                    SET("loginname  = #{loginname}");
                 }
                 if (user.getUsername() != null && !user.getUsername().equals("")) {
-                    SET("username = #{user.username}");
+                    SET("username = #{username}");
                 }
                 if (user.getPassword() != null && !user.getPassword().equals("")) {
-                    SET("password = #{user.password}");
+                    SET("password = #{password}");
                 }
                 if (user.getAge() != null && !user.getAge().equals("")) {
-                    SET("age = #{user.age}");
+                    SET("age = #{age}");
                 }
                 if (user.getGender() != null && !user.getGender().equals("")) {
-                    SET("gender = #{user.gender}");
+                    SET("gender = #{gender}");
                 }
                 if (user.getGrade() != null && !user.getGrade().equals("")) {
-                    SET("grade = #{user.grade}");
+                    SET("grade = #{grade}");
                 }
                 if (user.getSchool() != null && !user.getSchool().equals("")) {
-                    SET("school = #{user.school}");
+                    SET("school = #{school}");
                 }
                 if (user.getEmail() != null && !user.getEmail().equals("")) {
-                    SET("email = #{user.email}");
+                    SET("email = #{email}");
                 }
             }
         }.toString();
@@ -98,28 +98,28 @@ public class UserDynaSqlProvider {
                 SELECT("*");
                 FROM(USER);
                 if (user.getUserId() != null && !user.getUserId().equals("")) {
-                    WHERE("user_id = #{user.userId}");
+                    WHERE("user_id = #{userId}");
                 }
                 if (user.getLoginname() != null && !user.getLoginname().equals("")) {
-                    WHERE("loginname like concat ('%',#{user.loginname},'%')");
+                    WHERE("loginname like concat ('%',#{loginname},'%')");
                 }
                 if (user.getUsername() != null && !user.getUsername().equals("")) {
-                    WHERE("username like concat ('%',#{user.username},'%')");
+                    WHERE("username like concat ('%',#{username},'%')");
                 }
                 if (user.getAge() != null && !user.getAge().equals("")) {
-                    WHERE("age = #{user.age}");
+                    WHERE("age = #{age}");
                 }
                 if (user.getGender() != null && !user.getGender().equals("")) {
-                    WHERE("gender = #{user.gender}");
+                    WHERE("gender = #{gender}");
                 }
                 if (user.getGrade() != null && !user.getGrade().equals("")) {
-                    WHERE("grade = #{user.grade}");
+                    WHERE("grade = #{grade}");
                 }
                 if (user.getSchool() != null && !user.getSchool().equals("")) {
-                    WHERE("school = #{user.school}");
+                    WHERE("school = #{school}");
                 }
                 if (user.getEmail() != null && !user.getEmail().equals("")) {
-                    WHERE("email = #{user.email}");
+                    WHERE("email = #{email}");
                 }
             }
         }.toString();

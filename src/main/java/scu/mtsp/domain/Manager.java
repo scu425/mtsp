@@ -42,6 +42,16 @@ public class Manager implements Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    @Override
+    public String toString() {
+        return "Manager{" +
+                "managerId=" + managerId +
+                ", loginname='" + loginname + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
 }
 
     /*CREATE TABLE `manager` (

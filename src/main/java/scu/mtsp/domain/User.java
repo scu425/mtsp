@@ -87,6 +87,21 @@ public class User implements Serializable {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", loginname='" + loginname + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                ", school='" + school + '\'' +
+                ", grade='" + grade + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
 
        /* `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT,

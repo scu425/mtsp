@@ -15,10 +15,10 @@
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
     
-    <plugins>
+    <!--<plugins>
         <plugin interceptor="com.github.pagehelper.PageHelper">
             <property name="dialect" value="mysql"/>
         </plugin>
-    </plugins>
+    </plugins>-->
 
 </configuration>

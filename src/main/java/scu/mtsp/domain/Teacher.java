@@ -51,6 +51,17 @@ public class Teacher implements Serializable {
     public void setSchool(String school) {
         this.school = school;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "teacherId=" + teacherId +
+                ", loginname='" + loginname + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", school='" + school + '\'' +
+                '}';
+    }
 }
 
     /*CREATE TABLE `teacher` (

@@ -60,6 +60,18 @@ public class People implements Serializable {
     public void setPhoto(String photo) {
         this.photo = photo;
     }
+
+    @Override
+    public String toString() {
+        return "People{" +
+                "peopleId=" + peopleId +
+                ", nameEN='" + nameEN + '\'' +
+                ", nameCN='" + nameCN + '\'' +
+                ", introductionEN='" + introductionEN + '\'' +
+                ", introductionCN='" + introductionCN + '\'' +
+                ", photo='" + photo + '\'' +
+                '}';
+    }
 }
 
 

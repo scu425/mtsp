@@ -33,6 +33,15 @@ public class About implements Serializable {
     public void setAboutCN(String aboutCN) {
         this.aboutCN = aboutCN;
     }
+
+    @Override
+    public String toString() {
+        return "About{" +
+                "aboutId=" + aboutId +
+                ", aboutEN='" + aboutEN + '\'' +
+                ", aboutCN='" + aboutCN + '\'' +
+                '}';
+    }
 }
 
 
