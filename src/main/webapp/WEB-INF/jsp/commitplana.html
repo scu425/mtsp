@@ -12,13 +12,61 @@
     <link href="../../css/vendor.min.css" rel="stylesheet">
     <link href="../../css/home.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <style>
-          .answer{
-             
-          }
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#testbt").click(function () {
+             console.log("testbt is clicked");
+             jqchk();
+            })
+        })
+        function jqchk(){ //jquery获取复选框值
+            var exercise1 =[];
+            var exercise2 =[];
+            var exercise3 =[];
+            var exercise4 =[];
+            var exercise5 =[];
+            var exercise6 =[];
+            var exercise7 =[];
+            var exercise8 =[];
+            var exercise9 =[];
+            var exercise10 =[];
+            $('input[name="exercise1"]:checked').each(function(){
+                exercise1.push($(this).val());
+            });
+            $('input[name="exercise2"]:checked').each(function(){
+                exercise2.push($(this).val());
+            });
+            $('input[name="exercise3"]:checked').each(function(){
+                exercise3.push($(this).val());
+            });
+            $('input[name="exercise4"]:checked').each(function(){
+                exercise4.push($(this).val());
+            });
+            $('input[name="exercise5"]:checked').each(function(){
+                exercise5.push($(this).val());
+            });
+            $('input[name="exercise6"]:checked').each(function(){
+                exercise6.push($(this).val());
+            });
+            $('input[name="exercise7"]:checked').each(function(){
+                exercise7.push($(this).val());
+            });
+            $('input[name="exercise8"]:checked').each(function(){
+                exercise8.push($(this).val());
+            });
+            $('input[name="exercise9"]:checked').each(function(){
+                exercise9.push($(this).val());
+            });
+            $('input[name="exercise10"]:checked').each(function(){
+                exercise10.push($(this).val());
+            });
+            answer=exercise1+"  "+exercise2+"  "+exercise3+"  "+exercise4+"  "+exercise5+"  "+exercise6+"  "+exercise7+"  "+exercise8+"  "+exercise9+"  "+exercise10;
+           console.log(answer);
+            window.location = "commitplana?answer=" + answer;
+        }
+    </script>
 
-        
-    </style>
 </head>
 
 <body>
@@ -42,7 +90,7 @@
                     <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="plan_a.jsp">Plan A</a></li>
+                            <li><a href="plan_a.html">Plan A</a></li>
                             <li><a href="plan_b.html">Plan B</a></li>
                             <li><a href="important_date.html">Important Dates</a></li>
                             <li><a href="moreprograms.html">More</a></li>
@@ -76,18 +124,19 @@
     </div>
 </header>
 <div style="text-align: center">
-    <form action="">
+    <form action="plana/commit">
         <h2>Submission of the answer to plan A round 1</h2>
-        <div class="answer"><laybel style="margin-right: 50px">1.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">2.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">3.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">4.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">5.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">6.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">7.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">8.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-        <div class="answer"><laybel style="margin-right: 50px">9.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
-       <div class="answer"><laybel style="margin-right: 45px">10.</laybel>A<input type="checkbox">B<input type="checkbox">C<input type="checkbox" >D<input type="checkbox"></div>
+        <div class="answer"><laybel style="margin-right: 50px">1.</laybel>A<input name="exercise1" type="checkbox" value="A">B<input  name="exercise1" type="checkbox" value="B">C<input  name="exercise1" type="checkbox" value="C">D<input  name="exercise1" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">2.</laybel>A<input name="exercise2" type="checkbox" value="A">B<input  name="exercise2" type="checkbox" value="B">C<input  name="exercise2" type="checkbox" value="C">D<input  name="exercise2" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">3.</laybel>A<input name="exercise3" type="checkbox" value="A">B<input  name="exercise3" type="checkbox" value="B">C<input  name="exercise3" type="checkbox" value="C">D<input  name="exercise3" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">4.</laybel>A<input name="exercise4" type="checkbox" value="A">B<input  name="exercise4" type="checkbox" value="B">C<input  name="exercise4" type="checkbox" value="C">D<input  name="exercise4" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">5.</laybel>A<input name="exercise5" type="checkbox" value="A">B<input  name="exercise5" type="checkbox" value="B">C<input  name="exercise5" type="checkbox" value="C">D<input  name="exercise5" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">6.</laybel>A<input name="exercise6" type="checkbox" value="A">B<input  name="exercise6" type="checkbox" value="B">C<input  name="exercise6" type="checkbox" value="C">D<input  name="exercise6" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">7.</laybel>A<input name="exercise7" type="checkbox" value="A">B<input  name="exercise7" type="checkbox" value="B">C<input  name="exercise7" type="checkbox" value="C">D<input  name="exercise7" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">8.</laybel>A<input name="exercise8" type="checkbox" value="A">B<input  name="exercise8" type="checkbox" value="B">C<input  name="exercise8" type="checkbox" value="C">D<input  name="exercise8" type="checkbox" value="D"></div>
+        <div class="answer"><laybel style="margin-right: 50px">9.</laybel>A<input name="exercise9" type="checkbox" value="A">B<input  name="exercise9" type="checkbox" value="B">C<input  name="exercise9" type="checkbox" value="C">D<input  name="exercise9" type="checkbox" value="D"></div>
+      <div class="answer"><laybel style="margin-right: 45px">10.</laybel>A<input name="exercise10" type="checkbox" value="A">B<input name="exercise10" type="checkbox" value="B">C<input name="exercise10" type="checkbox" value="C">D<input name="exercise10" type="checkbox" value="D"></div>
+        <button class="btn btn-success" type="button" style="margin: 50px" id="testbt">test</button>
         <button class="btn btn-success" type="submit" style="margin: 50px">commit</button>
     </form>
 </div>
@@ -220,7 +269,7 @@
 </footer>
 <script type="text/javascript" src="../../js/vendor.bundle.js"></script>
 <script type="text/javascript" src="../../js/home.bundle.js"></script>
-<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>

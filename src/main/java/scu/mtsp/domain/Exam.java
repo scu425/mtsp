@@ -4,15 +4,18 @@ import java.util.Date;
 
 public class Exam {
   private Integer id;
-  private String name;
+  private String whichPlan;
+  private String round;
   private String answer;
   private Date createTime;
 
     public Exam() {
     }
 
-    public Exam(String name, String answer, Date createTime) {
-        this.name = name;
+
+    public Exam(String whichPlan, String round, String answer, Date createTime) {
+        this.whichPlan = whichPlan;
+        this.round = round;
         this.answer = answer;
         this.createTime = createTime;
     }
@@ -25,12 +28,12 @@ public class Exam {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getWhichPlan() {
+        return whichPlan;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setWhichPlan(String whichPlan) {
+        this.whichPlan = whichPlan;
     }
 
     public String getAnswer() {
@@ -39,6 +42,14 @@ public class Exam {
 
     public void setAnswer(String answer) {
         this.answer = answer;
+    }
+
+    public String getRound() {
+        return round;
+    }
+
+    public void setRound(String round) {
+        this.round = round;
     }
 
     public Date getCreateTime() {
@@ -53,10 +64,10 @@ public class Exam {
     public String toString() {
         return "Exam{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", whichPlan='" + whichPlan + '\'' +
+                ", round='" + round + '\'' +
                 ", answer='" + answer + '\'' +
                 ", createTime=" + createTime +
                 '}';
     }
-
 }

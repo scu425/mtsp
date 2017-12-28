@@ -19,8 +19,11 @@ public class ExamProvider {
         return new SQL(){
             {
                 INSERT_INTO(EXAM);
-                if (exam.getName()!=null&&!"".equals(exam.getName())){
-                    VALUES("name","#{name}");
+                if (exam.getWhichPlan()!=null&&!"".equals(exam.getWhichPlan())){
+                    VALUES("whichplan","#{whichPlan}");
+                }
+                if (exam.getRound()!=null&&!"".equals(exam.getRound())){
+                    VALUES("round","#{round}");
                 }
                 if (exam.getAnswer()!=null&&!"".equals(exam.getAnswer())){
                     VALUES("answer","#{answer}");
@@ -31,20 +34,42 @@ public class ExamProvider {
     }
 
     /**
-    *Description:动态修改试卷，包括每个题的答案可能有误
+    *Description:动态修改试卷
     */
 
     public String updateWithParams(final Exam exam){
         return new SQL(){
             {
                 UPDATE(EXAM);
-                if (exam.getName()!=null&&!"".equals(exam.getName())){
-                    SET("name=#{name}");
+                if (exam.getWhichPlan()!=null&&!"".equals(exam.getWhichPlan())){
+                    SET("whichplan=#{whichPlan}");
+                }
+                if (exam.getRound()!=null&&!"".equals(exam.getRound())){
+                    SET("round=#{round}");
                 }
                 if (exam.getAnswer()!=null&&!"".equals(exam.getAnswer())){
                     SET("answer=#{answer}");
                 }
                 WHERE("id=#{id}");
+
+            }
+        }.toString();
+    }
+
+    /**
+     *description:动态查询
+     */
+    public String selectWithParams(final Exam exam){
+        return new SQL(){
+            {
+                SELECT("*");
+                FROM(EXAM);
+                if (exam.getWhichPlan()!=null&&!"".equals(exam.getWhichPlan())){
+                    WHERE("whichplan=#{whichPlan}");
+                }
+                if (exam.getRound()!=null&&!"".equals(exam.getRound())){
+                    WHERE("round=#{round}");
+                }
 
             }
         }.toString();

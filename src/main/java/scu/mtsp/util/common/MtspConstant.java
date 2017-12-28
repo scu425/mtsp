@@ -7,5 +7,5 @@ package scu.mtsp.util.common;
  */
 public  class MtspConstant {
     public static final String EXAM="exam";
-    public static final String ANSWERDATAILSTU="answerdatailstu";
+    public static final String ANSWERDETAILSTU="answerdetailstu";
 }

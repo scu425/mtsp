@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@
 </header>
 <article class="htmleaf-content">
     <!-- multistep form -->
-    <form id="msform">
+    <form id="msform" action="login.html">
         <!-- progressbar -->
         <ul id="progressbar" >
             <li class="active">Account Settings</li>
@@ -113,9 +113,10 @@
             easing: 'easeInOutBack'
         });
     });
-    $('.submit').click(function () {
+   /* $('.submit').click(function () {
+
         return false;
-    });
+    });*/
 </script>
 </body>
 </html>

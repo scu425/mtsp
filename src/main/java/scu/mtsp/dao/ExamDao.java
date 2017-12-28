@@ -1,9 +1,6 @@
 package scu.mtsp.dao;
 
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.InsertProvider;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.UpdateProvider;
+import org.apache.ibatis.annotations.*;
 import scu.mtsp.dao.provider.ExamProvider;
 import scu.mtsp.domain.Exam;
 
@@ -48,4 +45,10 @@ public interface ExamDao {
     */
     @Select("select * from "+ EXAM+" where id=#{id}")
     Exam selectById(Integer id);
+
+    /**
+     *description:动态查询
+     */
+    @SelectProvider(type = ExamProvider.class,method = "selectWithParams")
+    List<Exam> selectWithParams(Exam exam);
 }
