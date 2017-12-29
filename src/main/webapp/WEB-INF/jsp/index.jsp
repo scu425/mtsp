@@ -36,7 +36,7 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="/about/show">About</a>
           </li>
           <li>
             <a href="/people/show">People</a>
@@ -64,7 +64,7 @@
             <a href="results.html">Results</a>
           </li>
           <li>
-            <a href="donate.html">Donate</a>
+            <a href="/donate/show">Donate</a>
           </li>
           <li>
             <a href="community.html">Community</a>

@@ -30,7 +30,7 @@ public class AuthorizedInterceptor implements HandlerInterceptor{
             //判断用户是否登陆
             if (user == null){
                 request.setAttribute("message","您因为用户未登陆，请先登陆");
-                request.getRequestDispatcher("loginForm").forward(request,response);
+                request.getRequestDispatcher("/login").forward(request,response);
                 return flag;
             }else {
                 flag = true;

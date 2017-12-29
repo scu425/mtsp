@@ -5,161 +5,53 @@
       <artifact name="Gradle : scu : mtsp-1.0-SNAPSHOT.war" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java" line="25" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f1b80d3d-c347-4e4c-af00-23fb32821390" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/file/plan_a_exam.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/404.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBarBg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBarL.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBar_admin.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBar_time.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/Thumbs.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/book3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/bt_file.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/choose_file.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/delete.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/downLoad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/fkjava.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_bgshw.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_closed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_expand.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/login_bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/login_left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/login_midbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/login_right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/login_top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_locbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_locleft.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_locright.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/none.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/p1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/p2-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/p2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/p3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/people1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/pointer.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/prev.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/qiang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/ruo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/step-arrow1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/step-arrow2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/step1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/top_exit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/top_home.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/top_logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/topbg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/update.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/zhong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/fonts/icomoon.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/fonts/icomoon.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/FormController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/reg.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/vendor.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/holder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/home.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery1.12.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/reg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/vendor.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/css/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/fonts/icomoon.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/js/jquery-2.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/scu/mtsp/service/AboutServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/scu/mtsp/service/DonateServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/scu/mtsp/service/UserServiceTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/DonateDAO.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/DonateDAO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/UserDAO.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/UserDAO.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/朱汉成.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/秦森林.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mtsp.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about/showAbout.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate/showDonate.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/images/people1.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/images/people1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/people1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/domain/About.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/domain/About.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/domain/Donate.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/domain/Donate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/interceptor/AuthorizedInterceptor.class" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/classes/scu/mtsp/interceptor/AuthorizedInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/mtsp-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/build/libs/mtsp-1.0-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/AboutDynaSqlProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/ManagerDynaSqlProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/PeopleDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/PeopleDynaSqlProvider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/PeopleDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/PeopleDynaSqlProvider$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/PeopleDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/PeopleDynaSqlProvider$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/UserDynaSqlProvider$1.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/UserDynaSqlProvider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/UserDynaSqlProvider$2.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/UserDynaSqlProvider$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/UserDynaSqlProvider$3.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/UserDynaSqlProvider$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/dao/provider/DonateDynaSqlProvider.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/About.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/About.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/Donate.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/Donate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/Manager.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/Manager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/People.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/People.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/Teacher.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/Teacher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/User.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/domain/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/interceptor/AuthorizedInterceptor.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/interceptor/AuthorizedInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/service/AboutService.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/service/AboutService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/service/Impl/AboutServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/service/Impl/AboutServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scu/mtsp/test/DeleteFile.class" afterPath="$PROJECT_DIR$/out/production/classes/scu/mtsp/test/DeleteFile.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDAO.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/jsp/people/showPeople.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/jsp/people/showPeople.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/build/libs/exploded/mtsp-1.0-SNAPSHOT.war/WEB-INF/jsp/register.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ManagerDynaSqlProvider.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ManagerDynaSqlProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/PeopleDynaSqlProvider.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/PeopleDynaSqlProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserDynaSqlProvider.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserDynaSqlProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Manager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/People.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/People.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Teacher.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Teacher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/Impl/AboutServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/Impl/AboutServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -178,11 +70,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PeopleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="168">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1656">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DonateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,12 +112,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showPeople.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp">
+      <file leaf-file-name="showAbout.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about/showAbout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="399">
+              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mtsp.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mtsp.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showDonate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate/showDonate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,35 +150,11 @@
       <file leaf-file-name="Donate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
+            <state relative-caret-position="687">
               <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding>
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
                 <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DonateDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -239,48 +162,18 @@
       <file leaf-file-name="DonateDynaSqlProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="1119">
               <caret line="84" column="85" lean-forward="false" selection-start-line="84" selection-start-column="85" selection-end-line="84" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java">
+      <file leaf-file-name="AboutController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DonateService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/DonateService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -600,10 +493,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ManagerDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/PeopleDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/constant/MTSPConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/Impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/PeopleService.java" />
@@ -624,12 +513,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/Impl/AboutServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/People.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java" />
         <option value="$PROJECT_DIR$/src/test/java/scu/mtsp/service/AboutServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ManagerDynaSqlProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/PeopleDynaSqlProvider.java" />
@@ -642,14 +529,21 @@
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/FormController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate/showAbout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate/showDonate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about/showAbout.jsp" />
       </list>
     </option>
   </component>
@@ -668,9 +562,12 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
-    <option name="y" value="40" />
-    <option name="width" value="425" />
-    <option name="height" value="1096" />
+    <option name="y" value="32" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -687,8 +584,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -714,109 +609,7 @@
               <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mtsp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
@@ -843,6 +636,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -860,6 +655,7 @@
       <recent name="scu.mtsp.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\mtsp\src\main\webapp\images\people" />
       <recent name="C:\IdeaProjects\mtsp\src\main\webapp\WEB-INF\jsp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -869,9 +665,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\IdeaProjects\mtsp\src\main\webapp" />
-      <recent name="C:\IdeaProjects\mtsp\src\main\webapp\WEB-INF" />
       <recent name="C:\IdeaProjects\mtsp\src\main\resources" />
+      <recent name="C:\IdeaProjects\mtsp\src\main\webapp\WEB-INF\jsp\donate" />
+      <recent name="C:\IdeaProjects\mtsp\src\main\webapp\WEB-INF" />
+      <recent name="C:\IdeaProjects\mtsp\src\main\webapp\images\people" />
+      <recent name="C:\IdeaProjects\mtsp\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1186,6 +984,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f1b80d3d-c347-4e4c-af00-23fb32821390" name="Default" comment="" />
@@ -1198,7 +999,11 @@
       <workItem from="1514250701501" duration="21846000" />
       <workItem from="1514289663631" duration="4639000" />
       <workItem from="1514340340603" duration="19990000" />
-      <workItem from="1514380013193" duration="1934000" />
+      <workItem from="1514380013193" duration="2424000" />
+      <workItem from="1514423723838" duration="3528000" />
+      <workItem from="1514428702326" duration="7573000" />
+      <workItem from="1514467651872" duration="656000" />
+      <workItem from="1514528418202" duration="1711000" />
     </task>
     <servers />
   </component>
@@ -1235,7 +1040,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58275000" />
+    <option name="totallyTimeSpent" value="72233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="7" />
@@ -1253,11 +1058,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915073" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19214438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19214438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1271,7 +1077,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1289,61 +1094,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/constant/MTSPConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/stringutils/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/file/test1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/controller/ActController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/test/DeleteFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="2" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1373,10 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="e#1035#1036#0" expanded="false" />
-            <element signature="e#1090#1091#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,10 +1130,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#881#882#0" expanded="false" />
-            <element signature="e#933#934#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1395,17 +1137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1269#1270#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1434,20 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AboutDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1458,22 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/Impl/DonateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="39" column="37" lean-forward="false" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1133#1134#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1502,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-542">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,14 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -1595,122 +1290,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="89" column="68" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#label#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="34" column="31" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding />
+          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/DonateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="456">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
+        <state relative-caret-position="384">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="84" column="85" lean-forward="false" selection-start-line="84" selection-start-column="85" selection-end-line="84" selection-end-column="85" />
+        <state relative-caret-position="696">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
+        <state relative-caret-position="672">
           <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people/people1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people/秦森林.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/DonateService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="456">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AboutDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="18" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people/showPeople.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="46" column="34" lean-forward="false" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="e#966#967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="84" column="85" lean-forward="false" selection-start-line="84" selection-start-column="85" selection-end-line="84" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="56" column="68" lean-forward="false" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate/showDonate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about/showAbout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mtsp.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

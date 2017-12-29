@@ -42,11 +42,11 @@
         <fieldset>
             <h2 class="fs-title">Create your account</h2>
             <h3 class="fs-subtitle">This is the first step</h3>
-            <input type="text" name="flag" value="1" placeholder="email " />
+            <input type="text" name="flag" value="1" hidden="hidden">
             <input type="text" name="email" placeholder="email " />
             <input type="text" name="loginname" placeholder="loginname " />
             <input type="password" name="password" placeholder="password" />
-            <input type="password" name="password2" placeholder="repeat" />
+            <input type="password" name="cpassword" placeholder="repeat" />
             <input type="button" name="next" class="next action-button" value="Next" />
         </fieldset>
 
@@ -57,6 +57,7 @@
             <input type="text" name="gender" placeholder="gender" />
             <input type="text" name="school" placeholder="school" />
             <input type="text" name="grade" placeholder="grade" />
+            <input type="text" name="age" placeholder="age" />
             <input type="button" name="previous" class="previous action-button" value="Previous" />
             <input type="submit" name="submit" class="submit action-button" value="Submit" />
         </fieldset>
@@ -123,9 +124,9 @@
             easing: 'easeInOutBack'
         });
     });
-    $('.submit').click(function () {
+    /*$('.submit').click(function () {
         return false;
-    });
+    });*/
 </script>
 </body>
 </html>

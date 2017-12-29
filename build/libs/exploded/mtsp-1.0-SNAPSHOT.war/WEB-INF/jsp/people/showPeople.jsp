@@ -88,7 +88,7 @@
     <c:forEach items="${requestScope.peoples}" var="people" varStatus="stat">
         <div class="row" style="max-width: 960px;padding: 35px 0;margin: 0 auto;">
             <div class="col-md-3">
-                <img src="../../images/${people.photo}" alt="">
+                <img height="220" width="151" src="../../images/people/${people.photo}" alt="">
             </div>
             <div class="col-md-9" style="display: inline-block">
                 <h3>${people.nameEN}</h3>

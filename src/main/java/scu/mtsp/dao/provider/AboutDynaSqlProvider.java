@@ -20,6 +20,12 @@ public class AboutDynaSqlProvider {
             {
                 INSERT_INTO(ABOUT);
                 WHERE("about_id = #{aboutId}");
+                if (about.getTitleEN() != null && !about.getTitleEN().equals("")){
+                    VALUES("titleEN", "#{titleEN}");
+                }
+                if (about.getTitleCN() != null && !about.getTitleEN().equals("")){
+                    VALUES("titleCN", "#{titleCN}");
+                }
                 if (about.getAboutCN() != null && !about.getAboutCN().equals("")) {
                     VALUES("aboutCN", "#{aboutCN}");
                 }
@@ -44,6 +50,12 @@ public class AboutDynaSqlProvider {
                 if (about.getAboutId() != null && !about.getAboutId().equals("")) {
                     WHERE("about_id = #{aboutId}");
                 }
+                if (about.getTitleEN() != null && !about.getTitleEN().equals("")){
+                    WHERE("titleEN like concat ('%',#{titleEn},'%')");
+                }
+                if (about.getTitleCN() != null && !about.getTitleEN().equals("")){
+                    WHERE("titleCN like concat ('%',#{titleCN},'%')");
+                }
                 if (about.getAboutCN() != null && !about.getAboutCN().equals("")) {
                     WHERE("aboutCN like concat ('%',#{aboutCN},'%')}");
                 }
@@ -65,6 +77,12 @@ public class AboutDynaSqlProvider {
             {
                 UPDATE(ABOUT);
                 WHERE("about_id = #{aboutId}");
+                if (about.getTitleEN() != null && !about.getTitleEN().equals("")){
+                    SET("titleEN = #{titleEN}");
+                }
+                if (about.getTitleCN() != null && !about.getTitleEN().equals("")){
+                    SET("titleCN = #{titleCN}");
+                }
                 if (about.getAboutCN() != null && !about.getAboutCN().equals("")) {
                     SET("aboutCN = #{aboutCN}");
                 }

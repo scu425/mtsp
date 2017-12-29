@@ -7,6 +7,8 @@ import java.io.Serializable;
  */
 public class About implements Serializable {
     private Integer aboutId;
+    private String titleEN;
+    private String titleCN;
     private String aboutEN;
     private String aboutCN;
 
@@ -16,6 +18,22 @@ public class About implements Serializable {
 
     public void setAboutId(Integer aboutId) {
         this.aboutId = aboutId;
+    }
+
+    public String getTitleEN() {
+        return titleEN;
+    }
+
+    public void setTitleEN(String titleEN) {
+        this.titleEN = titleEN;
+    }
+
+    public String getTitleCN() {
+        return titleCN;
+    }
+
+    public void setTitleCN(String titleCN) {
+        this.titleCN = titleCN;
     }
 
     public String getAboutEN() {
