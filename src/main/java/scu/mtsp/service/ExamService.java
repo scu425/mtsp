@@ -37,4 +37,11 @@ public interface ExamService {
      *description:根据id查询试题
      */
     Exam selectById(Integer id);
+
+    /**
+     *Description:根据whichplan和round查询
+     *
+     */
+    Exam selectByWhichPlanAndRound(String whichPlan,String round);
+
 }

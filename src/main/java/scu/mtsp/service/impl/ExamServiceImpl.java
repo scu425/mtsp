@@ -39,4 +39,8 @@ public class ExamServiceImpl implements ExamService{
     public Exam selectById(Integer id) {
         return examDao.selectById(id);
     }
+
+    public Exam selectByWhichPlanAndRound(String whichPlan, String round) {
+        return examDao.selectByWhichPlanAndRound(whichPlan,round);
+    }
 }

@@ -16,33 +16,33 @@ import static scu.mtsp.util.common.MtspConstant.EXAM;
 public interface ExamDao {
 
     /**
-    *Description:添加试卷
-    */
+     *Description:添加试卷
+     */
     @InsertProvider(type = ExamProvider.class,method = "insertWithParams")
     void save(Exam exam);
 
 
     /**
-    *Description:根据id删除试卷
-    */
+     *Description:根据id删除试卷
+     */
     @Delete("delete from "+ EXAM +" where id=#{id}")
     void delete(Integer id);
 
     /**
-    *Description:修改试卷
-    */
+     *Description:修改试卷
+     */
     @UpdateProvider(type = ExamProvider.class,method = "updateWithParams")
     void update(Exam exam);
 
     /**
-    *Description:查询所有
-    */
+     *Description:查询所有
+     */
     @Select("select * from "+EXAM+" ")
     List<Exam> selectAll();
 
     /**
-    *Description:根据id查询
-    */
+     *Description:根据id查询
+     */
     @Select("select * from "+ EXAM+" where id=#{id}")
     Exam selectById(Integer id);
 
@@ -51,4 +51,10 @@ public interface ExamDao {
      */
     @SelectProvider(type = ExamProvider.class,method = "selectWithParams")
     List<Exam> selectWithParams(Exam exam);
+
+    /**
+     *Description:根据whichPlan与round查询
+     */
+    @Select("select * from "+EXAM+" where whichplan=#{whichPlan} and round=#{round}")
+    Exam selectByWhichPlanAndRound(@Param("whichPlan") String whichPlan,@Param("round") String round);
 }
