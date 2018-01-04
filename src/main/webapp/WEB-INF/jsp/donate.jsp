@@ -1,3 +1,14 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: zhc
+  Date: 2017/12/28
+  Time: 11:36
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="f" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,39 +35,39 @@
         <div class="col-auto align-items-center">
             <nav class="navbar">
                 <ul>
-                    <li>
+                    <li >
                         <a href="index">Home</a>
                     </li>
                     <li>
-                        <a href="about">About</a>
+                        <a href="/about/show">About</a>
                     </li>
                     <li>
-                        <a href="people">People</a>
+                        <a href="/people/show">People</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="plan_a">Plan A</a></li>
-                            <li><a href="plan_b">Plan B</a></li>
-                            <li><a href="important_date">Important Dates</a></li>
-                            <li><a href="moreprograms">More</a></li>
+                            <li><a href="plan_a.html">Plan A</a></li>
+                            <li><a href="plan_b.html">Plan B</a></li>
+                            <li><a href="important_date.html">Important Dates</a></li>
+                            <li><a href="moreprograms.html">More</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="books">Books</a></li>
+                            <li><a href="books.html">Books</a></li>
                             <li><a href="https://www.maa.org/math-competitions/about-amc/">AMC</a></li>
                             <li><a href="http://www.smcworld.com/en/">SMC</a></li>
-                            <li><a href="https://gmplib.org"/>GMP</a></li>
-                            <li><a href="moreresources"/>More</a></li>
+                            <li><a href="https://gmplib.org"/>GMP</li>
+                            <li><a href="moreresources.html"/>More</li>
                         </ul>
                     </li>
                     <li>
                         <a href="results">Results</a>
                     </li>
                     <li class="active">
-                        <a  href="donate">Donate</a>
+                        <a href="/donate/show">Donate</a>
                     </li>
                     <li>
                         <a href="community">Community</a>
@@ -67,17 +78,17 @@
 
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="login"><button class="btn btn-primary" style="border:0px solid transparent">Log in</button></a></li>
-            <li><a href="reg"><button class="btn btn-success" style="border:0px solid transparent">Sign up</button></a></li>
+            <li><a href="login.html"><button class="btn btn-primary" style="border:0px solid transparent">Log in</button></a></li>
+            <li><a href="reg.html"><button class="btn btn-success" style="border:0px solid transparent">Sign up</button></a></li>
         </ul>
     </div>
 </header>
-<div>
-    <div class="jumbotron" style="text-align: center">
-        <h1>Welcome to join us</h1>
-       <p>We have attracted donors who can make the annual special prize. We hope to attract more to further to develop more programs</p>
-        <a href=""><button class="btn btn-info">contact us</button></a>
-    </div>
+
+<div class="jumbotron" style="text-align: center">
+    <c:forEach items="${requestScope.donates}" var="donate" varStatus="stat">
+        <h2 style="text-align: left">${donate.titleEN}</h2>
+        <p style="text-align: left">${donate.contentEN}</p>
+    </c:forEach>
 </div>
 <div style="height: 400px"></div>
 <footer>
@@ -87,10 +98,10 @@
                 <h3>About</h3>
                 <ul>
                     <li>
-                        <a href="about">About us</a>
+                        <a href="about.html">About us</a>
                     </li>
                     <li>
-                        <a href="donate">Join us</a>
+                        <a href="donate.html">Join us</a>
                     </li>
                     <li>
                         <a rel="nofollow" href="">Privacy</a>

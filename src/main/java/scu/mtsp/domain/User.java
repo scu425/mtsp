@@ -1,12 +1,12 @@
 package scu.mtsp.domain;
 
+import java.io.Serializable;
+
 /**
- * @Author:qinsenlin Description:
- * @Date: created in 21:39 2017/12/27
- * @Modified By:
+ * Created by zhc on 2017/12/25
  */
-public class User {
-    private Integer id;
+public class User implements Serializable {
+    private Integer userId;
     private String loginname;
     private String username;
     private String password;
@@ -16,26 +16,12 @@ public class User {
     private String grade;
     private String email;
 
-    public User() {
+    public Integer getUserId() {
+        return userId;
     }
 
-    public User(String loginname, String username, String password, Integer age, String gender, String school, String grade, String email) {
-        this.loginname = loginname;
-        this.username = username;
-        this.password = password;
-        this.age = age;
-        this.gender = gender;
-        this.school = school;
-        this.grade = grade;
-        this.email = email;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public String getLoginname() {
@@ -105,7 +91,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "userId=" + userId +
                 ", loginname='" + loginname + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
@@ -117,3 +103,12 @@ public class User {
                 '}';
     }
 }
+
+       /* `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+        `loginname` varchar(45) NOT NULL,
+        `username` varchar(45) NOT NULL,
+        `password` varchar(45) NOT NULL,
+        `age` int(3) NOT NULL,
+        `gender` char(3) NOT NULL,
+        `school` varchar(100) NOT NULL,
+        `grade` varchar(10) NOT NULL,*/

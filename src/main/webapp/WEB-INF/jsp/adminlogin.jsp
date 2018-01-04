@@ -1,4 +1,4 @@
-
+<%@page contentType="text/html; charset=utf-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,8 +55,8 @@
                             <li><a href="books">Books</a></li>
                             <li><a href="https://www.maa.org/math-competitions/about-amc/">AMC</a></li>
                             <li><a href="http://www.smcworld.com/en/">SMC</a></li>
-                            <li><a href="https://gmplib.org"/>GMP</a></li>
-                            <li><a href="moreresources"/>More</a></li>
+                            <li><a href="https://gmplib.org">GMP</a></li>
+                            <li><a href="moreresources">More</a></li>
                         </ul>
                     </li>
                     <li>
@@ -79,9 +79,11 @@
 <div id="loginForm">
     <div class="row myCenter">
         <div class="col-md-2 col-center-block">
-            <form class="form-signin" action="/login" method="post" >
+            <form class="form-signin" action="/admincheck" method="post" >
                 <h2 class="form-signin-heading">Please Log in</h2>
-
+                <div>
+                    <span><font color="red"> ${requestScope.message}</font> </span>
+                </div>
                 <label for="name" class="sr-only">Username</label>
                 <input type="text" id="name" name="name" class="form-control" placeholder="username" required autofocus>
                 <label for="password" class="sr-only">password</label>

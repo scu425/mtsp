@@ -1,7 +1,7 @@
 package scu.mtsp.dao;
 
 import org.apache.ibatis.annotations.*;
-import scu.mtsp.dao.provider.ExamProvider;
+import scu.mtsp.dao.provider.ExamDynaSqlProvider;
 import scu.mtsp.domain.Exam;
 
 import java.util.List;
@@ -18,7 +18,7 @@ public interface ExamDao {
     /**
      *Description:添加试卷
      */
-    @InsertProvider(type = ExamProvider.class,method = "insertWithParams")
+    @InsertProvider(type = ExamDynaSqlProvider.class,method = "insertWithParams")
     void save(Exam exam);
 
 
@@ -31,7 +31,7 @@ public interface ExamDao {
     /**
      *Description:修改试卷
      */
-    @UpdateProvider(type = ExamProvider.class,method = "updateWithParams")
+    @UpdateProvider(type = ExamDynaSqlProvider.class,method = "updateWithParams")
     void update(Exam exam);
 
     /**
@@ -49,7 +49,7 @@ public interface ExamDao {
     /**
      *description:动态查询
      */
-    @SelectProvider(type = ExamProvider.class,method = "selectWithParams")
+    @SelectProvider(type = ExamDynaSqlProvider.class,method = "selectWithParams")
     List<Exam> selectWithParams(Exam exam);
 
     /**

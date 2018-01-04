@@ -1,4 +1,11 @@
-
+<%--
+  Created by IntelliJ IDEA.
+  User: zhc
+  Date: 2017/12/27
+  Time: 15:36
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,9 +15,9 @@
     <meta name="keywords" content="Math,Talent,Search,Programs" />
     <meta name="description" content="Math Talent Search Programs">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../../images/favicon.ico" />
-    <link href="../../css/vendor.min.css" rel="stylesheet">
-    <link href="../../css/home.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href="css/vendor.min.css" rel="stylesheet">
+    <link href="css/home.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
         .col-center-block {
@@ -19,15 +26,15 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
+
     </style>
 </head>
 
-<body style="background-image: url(../../images/p2-bg.png);">
+<body style="background-image: url(images/p2-bg.png);">
 <header class="container">
     <div class="row justify-content-between">
         <div class="col-auto logo align-items-left">
-            <img src="../../images/logo.png" alt="">
+            <img src="images/logo.png" alt="">
         </div>
         <div class="col-auto align-items-center">
             <nav class="navbar">
@@ -44,30 +51,30 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="plan_a">Plan A</a></li>
-                            <li><a href="plan_b">Plan B</a></li>
-                            <li><a href="important_date">Important Dates</a></li>
-                            <li><a href="moreprograms">More</a></li>
+                            <li><a href="plan_a.html">Plan A</a></li>
+                            <li><a href="plan_b.html">Plan B</a></li>
+                            <li><a href="important_date.html">Important Dates</a></li>
+                            <li><a href="moreprograms.html">More</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="books">Books</a></li>
+                            <li><a href="books.html">Books</a></li>
                             <li><a href="https://www.maa.org/math-competitions/about-amc/">AMC</a></li>
                             <li><a href="http://www.smcworld.com/en/">SMC</a></li>
-                            <li><a href="https://gmplib.org"/>GMP</a></li>
-                            <li><a href="moreresources"/>More</a></li>
+                            <li><a href="https://gmplib.org"/>GMP</li>
+                            <li><a href="moreresources.html"/>More</li>
                         </ul>
                     </li>
                     <li>
-                        <a href="results">Results</a>
+                        <a href="results.html">Results</a>
                     </li>
                     <li>
-                        <a href="donate">Donate</a>
+                        <a href="donate.html">Donate</a>
                     </li>
                     <li>
-                        <a href="community">Community</a>
+                        <a href="community.html">Community</a>
                     </li>
                 </ul>
 
@@ -84,7 +91,7 @@
                 <h2 class="form-signin-heading">Please Log in</h2>
 
                 <label for="name" class="sr-only">Username/Email</label>
-                <input type="text" id="name" name="name" class="form-control" placeholder="Username/Email" required autofocus>
+                <input type="text" id="name" name="loginname" class="form-control" placeholder="Username/Email" required autofocus>
                 <label for="password" class="sr-only">password</label>
                 <input type="password" id="password" name="password" class="form-control" placeholder="password" required>
                 <div class="checkbox">
@@ -93,10 +100,10 @@
                         remember me </label>
                     <label style="padding-left: 150px">
                         <a href="">forget password?</a>
-                       </label>
+                    </label>
                 </div>
                 <button class="btn btn-primary col-md-5" type="submit" >Log in</button>
-                <a href="adminlogin"><button class="btn btn-success col-md-6 col-md-offset-1" type="button">Administrators >></button></a>
+                <a href="adminlogin.html"><button class="btn btn-success col-md-6 col-md-offset-1" type="button">Administrators >></button></a>
 
             </form>
         </div>
@@ -110,10 +117,10 @@
                 <h3>About</h3>
                 <ul>
                     <li>
-                        <a href="about">About us</a>
+                        <a href="about.html">About us</a>
                     </li>
                     <li>
-                        <a href="donate">Join us</a>
+                        <a href="donate.html">Join us</a>
                     </li>
                     <li>
                         <a rel="nofollow" href="">Privacy</a>
@@ -160,7 +167,7 @@
             </div>
             <div class="col-12 col-sm-4 social content-center">
                 <div class="row align-items-center justify-content-center">
-                    <img src="../../images/wechatQR.jpg" alt="">
+                    <img src="images/wechatQR.jpg" alt="">
                     <p>
                         <a class="weibo" rel="nofollow" href="https://weibo.com/u/2212429741" target="_blank">
                             <svg t="1512525972279" class="icon" style="" viewBox="0 0 1026 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1851"
@@ -229,8 +236,8 @@
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="../../js/vendor.bundle.js"></script>
-<script type="text/javascript" src="../../js/home.bundle.js"></script>
+<script type="text/javascript" src="js/vendor.bundle.js"></script>
+<script type="text/javascript" src="js/home.bundle.js"></script>
 <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 

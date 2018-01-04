@@ -1,3 +1,11 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: zhc
+  Date: 2017/12/28
+  Time: 11:36
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,35 +36,35 @@
                         <a href="index">Home</a>
                     </li>
                     <li class="active">
-                        <a href="about">About</a>
+                        <a href="/about/show">About</a>
                     </li>
                     <li>
-                        <a href="people">People</a>
+                        <a href="/people/show">People</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="plan_a">Plan A</a></li>
-                            <li><a href="plan_b">Plan B</a></li>
-                            <li><a href="important_date">Important Dates</a></li>
-                            <li><a href="moreprograms">More</a></li>
+                            <li><a href="plan_a.html">Plan A</a></li>
+                            <li><a href="plan_b.html">Plan B</a></li>
+                            <li><a href="important_date.html">Important Dates</a></li>
+                            <li><a href="moreprograms.html">More</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="books">Books</a></li>
-                            <li><a href="https://www.maa.org/math-competitions/about-amc/about">AMC</a></li>
+                            <li><a href="books.html">Books</a></li>
+                            <li><a href="https://www.maa.org/math-competitions/about-amc/">AMC</a></li>
                             <li><a href="http://www.smcworld.com/en/">SMC</a></li>
-                            <li><a href="https://gmplib.org"/>GMP</a></li>
-                            <li><a href="moreresources"/>More</a></li>
+                            <li><a href="https://gmplib.org"/>GMP</li>
+                            <li><a href="moreresources.html"/>More</li>
                         </ul>
                     </li>
                     <li>
                         <a href="results">Results</a>
                     </li>
                     <li>
-                        <a href="donate">Donate</a>
+                        <a href="/donate/show">Donate</a>
                     </li>
                     <li>
                         <a href="community">Community</a>
@@ -67,15 +75,15 @@
 
         </div>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="login"><button class="btn btn-primary" style="border:0px solid transparent">Log in</button></a></li>
-            <li><a href="reg"><button class="btn btn-success" style="border:0px solid transparent">Sign up</button></a></li>
+            <li><a href="login.html"><button class="btn btn-primary" style="border:0px solid transparent">Log in</button></a></li>
+            <li><a href="reg.html"><button class="btn btn-success" style="border:0px solid transparent">Sign up</button></a></li>
         </ul>
     </div>
 </header>
-<div class="jumbotron" style="text-align: center">
-    <h1>Math Talent Search Programs</h1>
-    <p>Founded in 2017, the math talent search program is a non-profit program helping K-12 kids explore and foster a love for mathematics. We realize that mathematically gifted students show their strength in many ways. Some may be gifted in fast problem-solving; some may be in research or recreational math.  Some enjoys the competitive atmosphere, while other not. The program aims at inspiring a life-long curiosity for mathematics by creatively solving math problems or discovering math ideas or laws from an early age. Borrowed ideas from many existing projects of similar kind, such as the Wisconsin math talent search, and the Global math project, we currently offer two ways to help kids identify their math capacity.  </p>
 
+<div class="jumbotron" style="text-align: center">
+    <h2 style="color: goldenrod">${about.titleEN}</h2>
+    <p>${about.aboutEN}</p>
 </div>
 <div style="height: 400px"></div>
 <footer>
@@ -85,10 +93,10 @@
                 <h3>About</h3>
                 <ul>
                     <li>
-                        <a href="about">About us</a>
+                        <a href="about.html">About us</a>
                     </li>
                     <li>
-                        <a href="donate">Join us</a>
+                        <a href="donate.html">Join us</a>
                     </li>
                     <li>
                         <a rel="nofollow" href="">Privacy</a>
@@ -123,7 +131,7 @@
                         <a target="_blank" href="http://www.scu.edu.cn">Sichuan University</a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://www.maa.org/math-competitions/about-amc/about">AMC</a>
+                        <a target="_blank" href="https://www.maa.org/math-competitions/about-amc/">AMC</a>
                     </li>
                     <li>
                         <a target="_blank" href="http://www.smcworld.com/en/">SMC</a>
@@ -153,44 +161,44 @@
                         </a>
                         <a class="wechat">
                             <svg t="1512525994873" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2628"
-                                 " width="32" height="32">
-                                <defs>
-                                    <style type="text/css"></style>
-                                </defs>
-                                <path d="M387.593709 170.691754c-166.025577 0-302.247832 111.08511-302.247832 252.124063 0 81.733353 45.156549 148.264001 121.01955 200.194032l-30.405409 89.409966 105.816845-51.930031c37.780979 7.225048 68.035867 14.901661 105.816846 14.901661 9.03131 0 18.664707-0.451565 28.147582-1.204175-6.020873-19.567838-9.482875-40.941937-9.482876-62.165515 0-129.448773 113.192415-234.663531 257.091284-234.663531 9.482875 0 19.116272 0.451565 29.050713 1.65574-26.491842-119.815376-156.542702-208.322211-304.806703-208.32221z m-100.849626 208.472732c-23.631927 0-42.748199-19.116272-42.748199-42.748199s19.116272-42.748199 42.748199-42.748199 42.748199 19.116272 42.7482 42.748199-19.116272 42.748199-42.7482 42.748199z m210.128473 0c-23.631927 0-42.748199-19.116272-42.748199-42.748199s19.116272-42.748199 42.748199-42.748199 42.748199 19.116272 42.7482 42.748199-19.266794 42.748199-42.7482 42.748199z"
-                                      fill="" p-id="2629"></path>
-                                <path d="M682.014405 393.012494c-143.447303 0-256.639718 96.635014-256.639717 215.547259 0 118.761723 113.192415 215.095693 256.639717 215.095693 30.405409 0 60.660297-7.676613 90.614141-14.901661l83.238571 44.704983-23.029839-74.056739c60.660297-44.704983 105.816846-103.860062 105.816845-170.842276 0-118.912245-121.01955-215.547259-256.639718-215.547259z m-79.174481 182.582979c-18.815229 0-34.168455-15.353227-34.168456-34.168456S584.024695 507.258562 602.839924 507.258562s34.168455 15.353227 34.168455 34.168455-15.353227 34.168455-34.168455 34.168456z m166.025577 0c-18.815229 0-34.168455-15.353227-34.168456-34.168456s15.353227-34.168455 34.168456-34.168455 34.168455 15.353227 34.168455 34.168455-15.202705 34.168455-34.168455 34.168456z"
-                                      fill="" p-id="2630"></path>
+                            " width="32" height="32">
+                            <defs>
+                                <style type="text/css"></style>
+                            </defs>
+                            <path d="M387.593709 170.691754c-166.025577 0-302.247832 111.08511-302.247832 252.124063 0 81.733353 45.156549 148.264001 121.01955 200.194032l-30.405409 89.409966 105.816845-51.930031c37.780979 7.225048 68.035867 14.901661 105.816846 14.901661 9.03131 0 18.664707-0.451565 28.147582-1.204175-6.020873-19.567838-9.482875-40.941937-9.482876-62.165515 0-129.448773 113.192415-234.663531 257.091284-234.663531 9.482875 0 19.116272 0.451565 29.050713 1.65574-26.491842-119.815376-156.542702-208.322211-304.806703-208.32221z m-100.849626 208.472732c-23.631927 0-42.748199-19.116272-42.748199-42.748199s19.116272-42.748199 42.748199-42.748199 42.748199 19.116272 42.7482 42.748199-19.116272 42.748199-42.7482 42.748199z m210.128473 0c-23.631927 0-42.748199-19.116272-42.748199-42.748199s19.116272-42.748199 42.748199-42.748199 42.748199 19.116272 42.7482 42.748199-19.266794 42.748199-42.7482 42.748199z"
+                                  fill="" p-id="2629"></path>
+                            <path d="M682.014405 393.012494c-143.447303 0-256.639718 96.635014-256.639717 215.547259 0 118.761723 113.192415 215.095693 256.639717 215.095693 30.405409 0 60.660297-7.676613 90.614141-14.901661l83.238571 44.704983-23.029839-74.056739c60.660297-44.704983 105.816846-103.860062 105.816845-170.842276 0-118.912245-121.01955-215.547259-256.639718-215.547259z m-79.174481 182.582979c-18.815229 0-34.168455-15.353227-34.168456-34.168456S584.024695 507.258562 602.839924 507.258562s34.168455 15.353227 34.168455 34.168455-15.353227 34.168455-34.168455 34.168456z m166.025577 0c-18.815229 0-34.168455-15.353227-34.168456-34.168456s15.353227-34.168455 34.168456-34.168455 34.168455 15.353227 34.168455 34.168455-15.202705 34.168455-34.168455 34.168456z"
+                                  fill="" p-id="2630"></path>
                             </svg>
                         </a>
                         <a class="facebook" rel="nofollow" href="https://www.facebook.com/mtsp" target="_blank">
                             <svg t="1512526024699" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3381"
-                                 " width="32" height="32">
-                                <defs>
-                                    <style type="text/css"></style>
-                                </defs>
-                                <path d="M767.428571 6.857143l0 150.857143-89.714286 0q-49.142857 0-66.285714 20.571429t-17.142857 61.714286l0 108 167.428571 0-22.285714 169.142857-145.142857 0 0 433.714286-174.857143 0 0-433.714286-145.714286 0 0-169.142857 145.714286 0 0-124.571429q0-106.285714 59.428571-164.857143t158.285714-58.571429q84 0 130.285714 6.857143z"
-                                      p-id="3382"></path>
+                            " width="32" height="32">
+                            <defs>
+                                <style type="text/css"></style>
+                            </defs>
+                            <path d="M767.428571 6.857143l0 150.857143-89.714286 0q-49.142857 0-66.285714 20.571429t-17.142857 61.714286l0 108 167.428571 0-22.285714 169.142857-145.142857 0 0 433.714286-174.857143 0 0-433.714286-145.714286 0 0-169.142857 145.714286 0 0-124.571429q0-106.285714 59.428571-164.857143t158.285714-58.571429q84 0 130.285714 6.857143z"
+                                  p-id="3382"></path>
                             </svg>
                         </a>
                         <a class="twitter" rel="nofollow" href="https://twitter.com/mtsp" target="_blank">
                             <svg t="1512526041623" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4142"
-                                 " width="32" height="32">
-                                <defs>
-                                    <style type="text/css"></style>
-                                </defs>
-                                <path d="M1013.978 191.231c-36.969 16.396-76.762 27.491-118.462 32.473 42.621-25.531 75.327-65.925 90.685-114.084-39.878 23.632-83.967 40.779-131.027 50-37.546-40.083-91.203-65.123-150.562-65.123-113.852 0-206.213 92.383-206.213 206.265 0 16.195 1.76 31.899 5.305 46.971-171.427-8.617-323.377-90.655-425.184-215.542-17.75 30.57-27.925 65.986-27.925 103.796 0 71.492 36.426 134.657 91.782 171.683-33.804-1.034-65.642-10.399-93.479-25.76v2.539c0 99.991 71.090 183.354 165.52 202.259-17.321 4.846-35.529 7.265-54.375 7.265-13.284 0-26.251-1.241-38.787-3.659 26.22 81.92 102.386 141.602 192.662 143.185-70.593 55.358-159.555 88.322-256.175 88.322-16.655 0-33.108-0.921-49.218-2.851 91.292 58.468 199.727 92.642 316.199 92.642 379.483 0 586.906-314.27 586.906-586.896 0-8.964-0.178-17.892-0.547-26.686 40.308-29.102 75.325-65.444 102.896-106.79z"
-                                      p-id="4143"></path>
+                            " width="32" height="32">
+                            <defs>
+                                <style type="text/css"></style>
+                            </defs>
+                            <path d="M1013.978 191.231c-36.969 16.396-76.762 27.491-118.462 32.473 42.621-25.531 75.327-65.925 90.685-114.084-39.878 23.632-83.967 40.779-131.027 50-37.546-40.083-91.203-65.123-150.562-65.123-113.852 0-206.213 92.383-206.213 206.265 0 16.195 1.76 31.899 5.305 46.971-171.427-8.617-323.377-90.655-425.184-215.542-17.75 30.57-27.925 65.986-27.925 103.796 0 71.492 36.426 134.657 91.782 171.683-33.804-1.034-65.642-10.399-93.479-25.76v2.539c0 99.991 71.090 183.354 165.52 202.259-17.321 4.846-35.529 7.265-54.375 7.265-13.284 0-26.251-1.241-38.787-3.659 26.22 81.92 102.386 141.602 192.662 143.185-70.593 55.358-159.555 88.322-256.175 88.322-16.655 0-33.108-0.921-49.218-2.851 91.292 58.468 199.727 92.642 316.199 92.642 379.483 0 586.906-314.27 586.906-586.896 0-8.964-0.178-17.892-0.547-26.686 40.308-29.102 75.325-65.444 102.896-106.79z"
+                                  p-id="4143"></path>
                             </svg>
                         </a>
                         <a class="mail" rel="nofollow" href="" target="">
                             <svg t="1512526310045" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10661"
-                                 " width="32" height="32">
-                                <defs>
-                                    <style type="text/css"></style>
-                                </defs>
-                                <path d="M925.696 808.448H98.304c-15.872 0-29.184-12.288-29.184-27.136V250.88l421.376 377.344c6.144 5.12 13.312 7.68 20.992 7.68 4.608 0 9.216-1.536 13.824-3.584 4.608-1.024 9.216-3.072 12.8-6.656l417.28-378.88v533.504c-0.512 15.872-13.312 28.16-29.696 28.16z m-412.672-238.592L116.736 215.552h786.944l-390.656 354.304z m412.672-409.088H98.304c-48.128 0-87.552 36.864-87.552 81.92v538.112c0 45.056 39.424 81.92 87.552 81.92h827.904c48.128 0 87.552-36.864 87.552-81.92V242.688c-0.512-45.056-39.424-81.92-88.064-81.92z"
-                                      p-id="10662"></path>
+                            " width="32" height="32">
+                            <defs>
+                                <style type="text/css"></style>
+                            </defs>
+                            <path d="M925.696 808.448H98.304c-15.872 0-29.184-12.288-29.184-27.136V250.88l421.376 377.344c6.144 5.12 13.312 7.68 20.992 7.68 4.608 0 9.216-1.536 13.824-3.584 4.608-1.024 9.216-3.072 12.8-6.656l417.28-378.88v533.504c-0.512 15.872-13.312 28.16-29.696 28.16z m-412.672-238.592L116.736 215.552h786.944l-390.656 354.304z m412.672-409.088H98.304c-48.128 0-87.552 36.864-87.552 81.92v538.112c0 45.056 39.424 81.92 87.552 81.92h827.904c48.128 0 87.552-36.864 87.552-81.92V242.688c-0.512-45.056-39.424-81.92-88.064-81.92z"
+                                  p-id="10662"></path>
                             </svg>
                         </a>
                     </p>

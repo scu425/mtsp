@@ -1,36 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mtsp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7e745db8-85c8-4bfc-b6b4-3e9faa954aae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mtsp_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitsuccess.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/service/AnswerDatailStuService.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/ExamDao.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/ExamDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/service/impl/AnswerDetailStuServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/service/impl/AnswerDetailStuServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/ExamService.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/ExamService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminlogin.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/books.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/books.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/community.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/community.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/important_date.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/important_date.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreprograms.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreprograms.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreresources.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreresources.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_a.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_a.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_b.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_b.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/results.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/results.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ManagerController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AboutDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ManagerDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/PeopleDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/TeacherDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ManagerDynaSqlProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/PeopleDynaSqlProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserDynaSqlProvider.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/About.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Manager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/People.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Teacher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/DonateService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/ManagerService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/PeopleService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/AboutServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/DonateServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ManagerServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/PeopleServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/UserServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/left.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/manager.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/showAddManager.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/showUpdateManager.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/right.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/top.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/css.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/404.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBarBg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBarL.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBar_admin.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/StatBar_time.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_bgshw.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_closed.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_expand.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/left_nav_top.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_locbg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_locleft.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/main_locright.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/pointer.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/top_exit.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/top_home.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/topbg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/update.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery1.12.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/showDialog.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/controller/AnswerDetailStuController.class" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/controller/AnswerDetailStuController.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/ExamDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/ExamDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/provider/ExamProvider$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/provider/ExamProvider$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/provider/ExamProvider$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/provider/ExamProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/dao/provider/UserProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/domain/User.class" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/domain/User.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/util/common/MtspConstant.class" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/scu/mtsp/util/common/MtspConstant.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/classes/spring/spring-web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/about.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/about.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/adminlogin.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/adminlogin.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/books.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/books.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/commitplana.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/commitplana.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/commitsuccess.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/commitsuccess.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/community.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/community.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/donate.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/donate.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/exam/exam.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/exam/exam.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/important_date.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/important_date.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/moreprograms.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/moreprograms.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/moreresources.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/moreresources.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/people.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/people.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/plan_b.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/plan_b.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/reg.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/reg.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/results.jsp" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/WEB-INF/jsp/results.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/css/bootstrap.css" afterPath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mtsp_war_exploded/images/people1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ExamProvider.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ExamDynaSqlProvider.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/User.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scu/mtsp/util/common/MtspConstant.java" afterPath="$PROJECT_DIR$/src/main/java/scu/mtsp/util/common/MtspConstant.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/books.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/books.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitsuccess.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitsuccess.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/community.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/community.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/exam.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/exam.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/important_date.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/important_date.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreprograms.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreprograms.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreresources.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreresources.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_a.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_a.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_b.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_b.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/results.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/results.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/people1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/people1.jpg" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/controller/AnswerDetailStuController.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/controller/AnswerDetailStuController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/ExamDao.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/ExamDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/provider/ExamProvider$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/provider/ExamProvider$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/provider/ExamProvider$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/provider/ExamProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/dao/provider/UserProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/domain/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scu/mtsp/util/common/MtspConstant.class" afterPath="$PROJECT_DIR$/target/classes/scu/mtsp/util/common/MtspConstant.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,67 +154,105 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ExamController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ExamController.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswerDetailStuController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java">
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="105" column="47" lean-forward="false" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+            <state relative-caret-position="1980">
+              <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnswerDetailStuService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/AnswerDetailStuService.java">
+      <file leaf-file-name="donate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="360">
+              <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/ExamService.java">
+      <file leaf-file-name="Donate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="227">
+              <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamServiceImpl.java">
+      <file leaf-file-name="DonateDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DonateDynaSqlProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
               <folding>
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExamDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java">
+      <file leaf-file-name="AboutController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+            <state relative-caret-position="420">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DonateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PeopleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="people.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -127,6 +278,8 @@
       <find>试题</find>
       <find>大体</find>
       <find>exam</find>
+      <find>com.imqsl</find>
+      <find>Manager</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,41 +293,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_a.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/important_date.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreprograms.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/moreresources.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_b.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register/js/jquery.easing.min.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.html" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ExamProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Exam.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scu/mtsp/dao/ExamDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/util/common/MtspConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AnswerDatailStuDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AnswerDetailStuProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/AnswerDetailStu.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scu/mtsp/dao/AnswerDatailStuDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/AnswerDatailStuService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scu/mtsp/service/ExamServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/FormController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/exam.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/showAddExam.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/showUpdateExam.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ExamController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/AnswerDetailStuService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/AnswerDetailStuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerdetailstu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerDetailStuList/answerDetailStuList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerDetailStu/showAddAnswerDetailStu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerDetailStu/showUpdateAnswerDetailStu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/results.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/front/results.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ManagerDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ManagerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/ManagerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ManagerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/right.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/manager.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/showAddManager.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/left.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminlogin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/ExamService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/exam.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/PeopleDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/DonateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/util/common/MtspConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AboutDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/PeopleDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/AboutServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/PeopleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserDynaSqlProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showAbout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.jsp" />
       </list>
     </option>
   </component>
@@ -194,7 +363,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -215,267 +384,115 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mtsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mtsp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mtsp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/spring+mybatis企业应用实战codes/codes/14/hrmapp" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -483,6 +500,9 @@
       <recent name="scu.mtsp.dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ideaProject\mtsp\src\main\webapp\images\people" />
+      <recent name="F:\IdeaProjects\mtsp\src\main\webapp\WEB-INF\jsp\back" />
+      <recent name="F:\IdeaProjects\mtsp\src\main\webapp\WEB-INF\jsp\front" />
       <recent name="F:\IdeaProjects\mtsp\src\main\webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -490,12 +510,16 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="scu.mtsp.controller" />
+      <recent name="scu.mtsp.service.impl" />
+      <recent name="scu.mtsp.service" />
+      <recent name="scu.mtsp.domain" />
+      <recent name="scu.mtsp.dao.provider" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\mtsp\src\main\java" />
-      <recent name="F:\IdeaProjects\mtsp\src\main\webapp\WEB-INF" />
-      <recent name="F:\IdeaProjects\mtsp\src\main\webapp" />
-      <recent name="F:\IdeaProjects\mtsp\src\main\resources\spring" />
+      <recent name="C:\ideaProject\mtsp\src\main\webapp\images\people" />
+      <recent name="F:\IdeaProjects\mtsp\src\main\java\scu\mtsp\domain" />
+      <recent name="F:\IdeaProjects\mtsp\src\main\java\scu\mtsp\dao\provider" />
+      <recent name="F:\IdeaProjects\mtsp\src\main\java\scu\mtsp\dao" />
       <recent name="F:\IdeaProjects\mtsp\src\main\java\scu\mtsp" />
     </key>
   </component>
@@ -512,7 +536,36 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration default="false" name="AnswerDatailStuDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration name="AnswerDatailStuDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="scu.mtsp.dao.*" />
@@ -536,9 +589,8 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="AnswerDatailStuDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerDatailStuDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="scu.mtsp.dao.*" />
@@ -562,9 +614,8 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="AnswerDatailStuDaoTest.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerDatailStuDaoTest.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="scu.mtsp.dao.*" />
@@ -588,9 +639,8 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="AnswerDatailStuDaoTest.selectWithParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerDatailStuDaoTest.selectWithParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="scu.mtsp.dao.*" />
@@ -614,9 +664,8 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="ExamServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="scu.mtsp.service.*" />
@@ -640,7 +689,193 @@
       </option>
       <envs />
       <patterns />
-      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_mtsp" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2269" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="mtsp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mtsp" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2284" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mtsp:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -702,14 +937,12 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -764,29 +997,6 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -935,36 +1145,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
@@ -1027,116 +1207,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_mtsp" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2269" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
       <envs />
       <method />
     </configuration>
@@ -1153,77 +1226,13 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="mtsp:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mtsp" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2284" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="mtsp:war exploded" />
-        </option>
-      </method>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
@@ -1246,6 +1255,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7e745db8-85c8-4bfc-b6b4-3e9faa954aae" name="Default" comment="" />
@@ -1256,7 +1268,15 @@
       <workItem from="1514362754054" duration="1240000" />
       <workItem from="1514364000854" duration="13167000" />
       <workItem from="1514446962498" duration="6500000" />
-      <workItem from="1514509774215" duration="2012000" />
+      <workItem from="1514509774215" duration="10357000" />
+      <workItem from="1514527586332" duration="729000" />
+      <workItem from="1514529434529" duration="3491000" />
+      <workItem from="1514879882894" duration="3555000" />
+      <workItem from="1514941774880" duration="791000" />
+      <workItem from="1514950089542" duration="2877000" />
+      <workItem from="1515050821642" duration="5616000" />
+      <workItem from="1515059510427" duration="13000" />
+      <workItem from="1515066379152" duration="2644000" />
     </task>
     <servers />
   </component>
@@ -1293,7 +1313,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22919000" />
+    <option name="totallyTimeSpent" value="50980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1305,15 +1325,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1323,29 +1340,31 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752612" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2752613" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2607296" sideWeight="0.49417636" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22643554" sideWeight="0.49417636" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2607296" sideWeight="0.5058236" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1359,383 +1378,327 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/showAddManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/mymanager/manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/adminlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/AnswerDetailStuService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/AnswerDetailStuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ExamController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="1755">
+          <caret line="65" column="62" lean-forward="false" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ExamController.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/scu/mtsp/dao/AnswerDatailStuDaoTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/exam.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/FormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/ExamService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="32" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="39" column="36" lean-forward="false" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scu/mtsp/service/ExamServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#694#715#0" expanded="false" />
-            <element signature="e#757#774#0" expanded="false" />
-            <element signature="e#813#827#0" expanded="false" />
-            <element signature="e#870#888#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1269">
+          <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="90" column="44" lean-forward="false" selection-start-line="90" selection-start-column="44" selection-end-line="90" selection-end-column="44" />
+        <state relative-caret-position="810">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="e#694#715#0" expanded="false" />
-            <element signature="e#757#774#0" expanded="false" />
-            <element signature="e#813#827#0" expanded="false" />
-            <element signature="e#870#888#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register/js/jquery.easing.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/reg.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2575">
-          <caret line="115" column="5" lean-forward="false" selection-start-line="115" selection-start-column="3" selection-end-line="118" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/plan_a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/util/common/MtspConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/ExamProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="70" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AnswerDetailStuProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2349">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/AnswerDetailStu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scu/mtsp/dao/ExamDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scu/mtsp/dao/AnswerDatailStuDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AnswerDetailStuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/scu/mtsp/service/ExamServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/FormController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/showUpdateExam.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/showAddExam.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/AnswerDetailStuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerdetailstu.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerDetailStu/answerDetailStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerDetailStu/showAddAnswerDetailStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/answerDetailStu/showUpdateAnswerDetailStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/commitplana.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/exam/exam.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/PeopleDynaSqlProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/ExamController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/AboutService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/AnswerDetailStuService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AnswerDetailStuController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="105" column="47" lean-forward="false" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+        <state relative-caret-position="774">
+          <caret line="118" column="34" lean-forward="false" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/ExamService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/DonateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="189">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/DonateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate/showDonate.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/interceptor/AuthorizedInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/ExamServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/util/common/MtspConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/PeopleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/AboutDynaSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/AboutDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/FormController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/AboutServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/service/impl/PeopleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/ExamDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+        <state relative-caret-position="-766">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/UserDynaSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="99" column="65" lean-forward="false" selection-start-line="99" selection-start-column="65" selection-end-line="99" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="65" column="70" lean-forward="true" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showAbout.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showDonate.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/showPeople.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/DonateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/PeopleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/donate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="90" column="16" lean-forward="false" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/domain/Donate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/DonateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scu/mtsp/dao/provider/DonateDynaSqlProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/people.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="90" column="54" lean-forward="false" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
           <folding />
         </state>
       </provider>

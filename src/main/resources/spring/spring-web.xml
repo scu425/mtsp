@@ -18,13 +18,13 @@
     </bean>
 
     <!-- 定义Spring MVC的拦截器 -->
-<!--<mvc:interceptors>
+<mvc:interceptors>
     <mvc:interceptor>
-        &lt;!&ndash; 拦截所有请求 &ndash;&gt;
+        <!-- 拦截所有请求 -->
         <mvc:mapping path="/*"/>
-        &lt;!&ndash; 自定义判断用户权限的拦截类 &ndash;&gt;
-        <bean class="com.imqsl.interceptor.AuthorizedInterceptor"/>
+        <!-- 自定义判断用户权限的拦截类 -->
+        <bean class="scu.mtsp.interceptor.AuthorizedInterceptor"/>
     </mvc:interceptor>
-</mvc:interceptors>-->
+</mvc:interceptors>
     <context:component-scan base-package="scu.mtsp.controller"/>
 </beans>
